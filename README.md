@@ -1,3 +1,44 @@
 # Financial-Modeling-and-Data-Analysis-Portfolio
 A Corporate Finance and Data Science portfolio demonstrating quantitative and analytical skills. Features three key projects built in Python/Streamlit
-📊 Project Portfolio: Corporate Finance & Quantitative AnalysisThis repository showcases three core applications built with Python and Streamlit (an accessible web framework), demonstrating proficiency in Financial Modeling, Valuation Methodologies, and Data Analysis (Business Intelligence), essential skills for roles in Investment Banking, Equity Research, and FP&A.ApplicationCore SkillRepository FileLive Demo1. DCF Valuation ModelFinancial Modeling, Risk Analysisapp_dcf.pyView Live DCF App (Link Placeholder)2. KPI DashboardFinancial Analysis, BI Visualizationapp_performance.pyView Live KPI App (Link Placeholder)3. Comps AnalysisRelative Valuation, Industry Study(Methodology in README)N/A (Static Analysis)Project Deep Dive1. Discounted Cash Flow (DCF) Valuation ModelThis application calculates the intrinsic (fair) value per share for a hypothetical company based on key user-defined inputs.Objective: Translate economic forecasts into a quantified valuation using the gold standard of financial modeling.Features:5-Year Explicit Forecast: Projects Revenue, EBITDA, and Free Cash Flow to Firm (FCFF).Enterprise Value Decomposition: Clearly breaks down the value derived from the explicit period versus the Terminal Value.🔥 Sensitivity Analysis: Generates an interactive matrix testing the final Valuation Per Share against shifts in the two most critical inputs: WACC and the Perpetual Growth Rate—a key demonstration of risk assessment.Technologies: Python, Streamlit, NumPy, Pandas.2. Interactive KPI DashboardThis tool automates the process of financial statement review by retrieving data and visualizing key metrics over time.Objective: Provide a clear, visual assessment of a public company's operating performance and financial health.Features:Automated Data Retrieval: Uses the yfinance API to fetch financial statements (requires valid ticker, e.g., RACE).Key Metric Tracking: Visualizes historical trends for EBITDA Margin, ROE, Current Ratio, and Net Debt/EBITDA.Insight: Highlights changes in efficiency and solvency over a multi-year horizon.Technologies: Python, Streamlit, Pandas, Matplotlib, yfinance.3. Comparable Company Analysis (Comps)A static analysis focused on relative valuation within the Luxury Goods Sector.Objective: Benchmark the valuation of key industry players (e.g., LVMH, Hermès, Kering) to understand sector pricing dynamics.Methodology: Calculated and analyzed key multiples: EV/EBITDA and P/E (Price-to-Earnings).Conclusion: Identified the reasons for valuation premiums (e.g., brand strength, high margins) and assessed the Median/Mean multiples for the peer group.
+📊 Project Portfolio: Corporate Finance & Quantitative Analysis
+
+This repository showcases three core applications built with Python and Streamlit (an accessible web framework), demonstrating proficiency in Financial Modeling, Valuation Methodologies, and Data Analysis (Business Intelligence), essential skills for roles in Investment Banking, Equity Research, and FP&A.
+
+Project Deep Dive
+1. Discounted Cash Flow (DCF) Valuation Model
+This application calculates the intrinsic (fair) value per share for a hypothetical company based on key user-defined inputs.
+Objective: Translate economic forecasts into a quantified valuation using the gold standard of financial modeling.
+
+Features:
+
+5-Year Explicit Forecast: Projects Revenue, EBITDA, and Free Cash Flow to Firm (FCFF).
+
+Enterprise Value Decomposition: Clearly breaks down the value derived from the explicit period versus the Terminal Value.
+
+🔥 Sensitivity Analysis: Generates an interactive matrix testing the final Valuation Per Share against shifts in the two most critical inputs: WACC and the Perpetual Growth Rate—a key demonstration of risk assessment.
+
+Technologies: Python, Streamlit, NumPy, Pandas.
+
+2. Interactive KPI Dashboard
+This tool automates the process of financial statement review by retrieving data and visualizing key metrics over time.
+
+Objective: Provide a clear, visual assessment of a public company's operating performance and financial health.
+
+Features:
+
+Automated Data Retrieval: Uses the yfinance API to fetch financial statements (requires valid ticker, e.g., RACE).
+
+Key Metric Tracking: Visualizes historical trends for EBITDA Margin, ROE, Current Ratio, and Net Debt/EBITDA.
+
+Insight: Highlights changes in efficiency and solvency over a multi-year horizon.
+
+Technologies: Python, Streamlit, Pandas, Matplotlib, yfinance.
+
+3. Comparable Company Analysis (Comps)
+A static analysis focused on relative valuation within the Luxury Goods Sector.
+
+Objective: Benchmark the valuation of key industry players (e.g., LVMH, Hermès, Kering) to understand sector pricing dynamics.
+
+Methodology: Calculated and analyzed key multiples: EV/EBITDA and P/E (Price-to-Earnings).
+
+Conclusion: Identified the reasons for valuation premiums (e.g., brand strength, high margins) and assessed the Median/Mean multiples for the peer group.
